@@ -26,5 +26,9 @@ public class ReelController {
         return reel.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
     }
 
+    // get reels by category
+    //get reels by userId
+    // Get reels from the favourite content creator
+
     // Other reel-related endpoints
 }

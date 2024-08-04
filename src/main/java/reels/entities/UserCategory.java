@@ -2,7 +2,7 @@ package reels.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
-import org.springframework.data.annotation.Id;
+import jakarta.persistence.Id;
 
 @Entity
 @Table(name = "user_categories")
